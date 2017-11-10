@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DFMainTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    DFMainTabBarViewController *mainTabBarVc = [[DFMainTabBarViewController alloc] init];
+    self.window.rootViewController = mainTabBarVc;
+    
+    [self.window makeKeyAndVisible];
+    
+    //设置tabbar 字体颜色
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName:[UIColor greenColor]} forState:UIControlStateSelected];
+    
     return YES;
 }
 

@@ -13,6 +13,11 @@
 		6112D8B91FB429230071DD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112D8B71FB429230071DD7A /* Main.storyboard */; };
 		6112D8BB1FB429230071DD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6112D8BA1FB429230071DD7A /* Assets.xcassets */; };
 		6112D8BE1FB429230071DD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112D8BC1FB429230071DD7A /* LaunchScreen.storyboard */; };
+		6112D8CB1FB5A2790071DD7A /* DFMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8CA1FB5A2790071DD7A /* DFMainTabBarViewController.m */; };
+		6112D8CE1FB5A3070071DD7A /* DFMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8CD1FB5A3070071DD7A /* DFMainNavViewController.m */; };
+		6112D8D11FB5A4A60071DD7A /* DFScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8D01FB5A4A60071DD7A /* DFScaleViewController.m */; };
+		6112D8D41FB5A4CE0071DD7A /* DFTransparentBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8D31FB5A4CE0071DD7A /* DFTransparentBarViewController.m */; };
+		6112D8D71FB5A4E90071DD7A /* DFHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8D61FB5A4E90071DD7A /* DFHideBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		6112D8BA1FB429230071DD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6112D8BD1FB429230071DD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6112D8BF1FB429230071DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6112D8C91FB5A2790071DD7A /* DFMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMainTabBarViewController.h; sourceTree = "<group>"; };
+		6112D8CA1FB5A2790071DD7A /* DFMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMainTabBarViewController.m; sourceTree = "<group>"; };
+		6112D8CC1FB5A3070071DD7A /* DFMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMainNavViewController.h; sourceTree = "<group>"; };
+		6112D8CD1FB5A3070071DD7A /* DFMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMainNavViewController.m; sourceTree = "<group>"; };
+		6112D8CF1FB5A4A60071DD7A /* DFScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFScaleViewController.h; sourceTree = "<group>"; };
+		6112D8D01FB5A4A60071DD7A /* DFScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFScaleViewController.m; sourceTree = "<group>"; };
+		6112D8D21FB5A4CE0071DD7A /* DFTransparentBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTransparentBarViewController.h; sourceTree = "<group>"; };
+		6112D8D31FB5A4CE0071DD7A /* DFTransparentBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTransparentBarViewController.m; sourceTree = "<group>"; };
+		6112D8D51FB5A4E90071DD7A /* DFHideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFHideBarViewController.h; sourceTree = "<group>"; };
+		6112D8D61FB5A4E90071DD7A /* DFHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFHideBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +73,11 @@
 		6112D8AD1FB429230071DD7A /* DFAboutNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				6112D8C81FB5A2790071DD7A /* DFViewController */,
 				6112D8B11FB429230071DD7A /* AppDelegate.h */,
 				6112D8B21FB429230071DD7A /* AppDelegate.m */,
 				6112D8B41FB429230071DD7A /* ViewController.h */,
 				6112D8B51FB429230071DD7A /* ViewController.m */,
-				6112D8B71FB429230071DD7A /* Main.storyboard */,
-				6112D8BA1FB429230071DD7A /* Assets.xcassets */,
-				6112D8BC1FB429230071DD7A /* LaunchScreen.storyboard */,
-				6112D8BF1FB429230071DD7A /* Info.plist */,
 				6112D8AE1FB429230071DD7A /* Supporting Files */,
 			);
 			path = DFAboutNavigationBar;
@@ -74,9 +86,30 @@
 		6112D8AE1FB429230071DD7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6112D8BA1FB429230071DD7A /* Assets.xcassets */,
+				6112D8B71FB429230071DD7A /* Main.storyboard */,
+				6112D8BC1FB429230071DD7A /* LaunchScreen.storyboard */,
+				6112D8BF1FB429230071DD7A /* Info.plist */,
 				6112D8AF1FB429230071DD7A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6112D8C81FB5A2790071DD7A /* DFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6112D8C91FB5A2790071DD7A /* DFMainTabBarViewController.h */,
+				6112D8CA1FB5A2790071DD7A /* DFMainTabBarViewController.m */,
+				6112D8CC1FB5A3070071DD7A /* DFMainNavViewController.h */,
+				6112D8CD1FB5A3070071DD7A /* DFMainNavViewController.m */,
+				6112D8CF1FB5A4A60071DD7A /* DFScaleViewController.h */,
+				6112D8D01FB5A4A60071DD7A /* DFScaleViewController.m */,
+				6112D8D21FB5A4CE0071DD7A /* DFTransparentBarViewController.h */,
+				6112D8D31FB5A4CE0071DD7A /* DFTransparentBarViewController.m */,
+				6112D8D51FB5A4E90071DD7A /* DFHideBarViewController.h */,
+				6112D8D61FB5A4E90071DD7A /* DFHideBarViewController.m */,
+			);
+			path = DFViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +138,7 @@
 		6112D8A31FB429230071DD7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DF;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = daifeng;
 				TargetAttributes = {
@@ -152,6 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6112D8B61FB429230071DD7A /* ViewController.m in Sources */,
+				6112D8D41FB5A4CE0071DD7A /* DFTransparentBarViewController.m in Sources */,
+				6112D8D11FB5A4A60071DD7A /* DFScaleViewController.m in Sources */,
+				6112D8CB1FB5A2790071DD7A /* DFMainTabBarViewController.m in Sources */,
+				6112D8D71FB5A4E90071DD7A /* DFHideBarViewController.m in Sources */,
+				6112D8CE1FB5A3070071DD7A /* DFMainNavViewController.m in Sources */,
 				6112D8B31FB429230071DD7A /* AppDelegate.m in Sources */,
 				6112D8B01FB429230071DD7A /* main.m in Sources */,
 			);
@@ -273,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 485NBRU9KM;
 				INFOPLIST_FILE = DFAboutNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdai.DFAboutNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 485NBRU9KM;
 				INFOPLIST_FILE = DFAboutNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fdai.DFAboutNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
