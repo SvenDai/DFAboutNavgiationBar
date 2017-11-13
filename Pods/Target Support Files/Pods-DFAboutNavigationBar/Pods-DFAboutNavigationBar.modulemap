@@ -1,0 +1,6 @@
+framework module Pods_DFAboutNavigationBar {
+  umbrella header "Pods-DFAboutNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
