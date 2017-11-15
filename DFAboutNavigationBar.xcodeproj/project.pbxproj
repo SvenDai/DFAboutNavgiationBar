@@ -19,6 +19,7 @@
 		6112D8D41FB5A4CE0071DD7A /* DFTransparentBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8D31FB5A4CE0071DD7A /* DFTransparentBarViewController.m */; };
 		6112D8D71FB5A4E90071DD7A /* DFHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6112D8D61FB5A4E90071DD7A /* DFHideBarViewController.m */; };
 		617F10791FB99D5300D4D695 /* DFHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F10781FB99D5300D4D695 /* DFHeadView.m */; };
+		617F107C1FBC195100D4D695 /* DFTransparentBarHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F107B1FBC195100D4D695 /* DFTransparentBarHeadView.m */; };
 		EEB545B71591A74B3EEE9EA0 /* Pods_DFAboutNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4832E2D21EF0989C494C07F8 /* Pods_DFAboutNavigationBar.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		617F10741FB995F300D4D695 /* DFAboutNavigationBar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAboutNavigationBar.pch; sourceTree = SOURCE_ROOT; };
 		617F10771FB99D5300D4D695 /* DFHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFHeadView.h; sourceTree = "<group>"; };
 		617F10781FB99D5300D4D695 /* DFHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFHeadView.m; sourceTree = "<group>"; };
+		617F107A1FBC195100D4D695 /* DFTransparentBarHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTransparentBarHeadView.h; sourceTree = "<group>"; };
+		617F107B1FBC195100D4D695 /* DFTransparentBarHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTransparentBarHeadView.m; sourceTree = "<group>"; };
 		B9A0115DC4EEDBFDDCB0D850 /* Pods-DFAboutNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFAboutNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFAboutNavigationBar/Pods-DFAboutNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +133,8 @@
 			children = (
 				617F10771FB99D5300D4D695 /* DFHeadView.h */,
 				617F10781FB99D5300D4D695 /* DFHeadView.m */,
+				617F107A1FBC195100D4D695 /* DFTransparentBarHeadView.h */,
+				617F107B1FBC195100D4D695 /* DFTransparentBarHeadView.m */,
 			);
 			path = DFView;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				6112D8B61FB429230071DD7A /* ViewController.m in Sources */,
 				617F10791FB99D5300D4D695 /* DFHeadView.m in Sources */,
 				6112D8D41FB5A4CE0071DD7A /* DFTransparentBarViewController.m in Sources */,
+				617F107C1FBC195100D4D695 /* DFTransparentBarHeadView.m in Sources */,
 				6112D8D11FB5A4A60071DD7A /* DFScaleViewController.m in Sources */,
 				6112D8CB1FB5A2790071DD7A /* DFMainTabBarViewController.m in Sources */,
 				6112D8D71FB5A4E90071DD7A /* DFHideBarViewController.m in Sources */,
